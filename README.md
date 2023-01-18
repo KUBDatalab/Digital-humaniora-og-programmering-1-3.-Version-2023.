@@ -1,7 +1,7 @@
 # Digital-humaniora-og-programmering-1-3.-Version-2023.
 
 ## Digital humaniora og programmering 1
-### En Grimm historie - Dyk ned i DH, tekst og Python
+### En Grimm historie med Python
 Notebooken bliver benyttet i relation til kursus til at en gennemgang af lister, strings og loops. Benyttede biblioteker er urllib.request, re, os og nltk. Progressionen i koden er 1. download af en e-bog med Grimms eventyr fra Gutenberg. 2. En opdeling af bogen i individuelle eventyr, som bliver gemt som en txt fil på egen computer. NLTK biblioteket introduceret som værktøj til kvantitative undersøgelser af hvert eventyr.
 
 ## Digital humaniora og programmering 2
