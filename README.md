@@ -1,10 +1,13 @@
 # Digital-humaniora-og-programmering-1-3.-Version-2023.
 
-Digital humaniora og programmering 1
-Notebooken gennemgår grundlæggende Python-kode, der kan få dig i gang med at bruge programmering som redskab til tekstbehandling, kvantitative analyser og tekst- og datamining. Mere teknisk fortalt gennemgår vi begreber som variabler, værdier, datatyperne tekststrenge og lister, loops og import og brug af pakker, f.eks. NLTK-pakken. Samtidigt lærer du om python-programmet Jupyter Notebook, så opnår du også et kendskab til det.
+## Digital humaniora og programmering 1
+### En Grimm historie - Dyk ned i DH, tekst og Python
+Notebooken bliver benyttet i relation til kursus til at en gennemgang af lister, strings og loops. Benyttede biblioteker er urllib.request, re, os og nltk. Progressionen i koden er 1. download af en e-bog med Grimms eventyr fra Gutenberg. 2. En opdeling af bogen i individuelle eventyr, som bliver gemt som en txt fil på egen computer. NLTK biblioteket introduceret som værktøj til kvantitative undersøgelser af hvert eventyr.
 
-Digital humaniora og programmering 2
-Regex' anvendelse er meget udbredt, fordi regex er super smart i relation til tekstbehandling, fordi det kan bruges til at foretage avancerede søgninger. Regex anvendes til søgemaskiner og til søg og erstat funktioner. At arbejde med Regex er afgjort en oplevelse for sig, men når man får indblik i omfanget af opgaver, som kan løses med Regex, så indser man, at det er et utroligt godt værktøj. Denne notebook forsøger ikke at lære dig alt om regex, men den forsøger at skabe læring om det, og kun et fåtal af mulighederne bliver illustreret i notebooken.
+## Digital humaniora og programmering 2
+### Der var engang et Grimm-kursus, der gav et lille indblik i RegEx
+Notebooken bliver benyttet i relation til kursus til gennemgang af loops, lister, strings og introduktion til RegEX. Benyttede biblioteker er os og re. Kun re.findall() funktionen bliver introduceret. Den bliver taget i anvendelse i relation til rensning af tekst, samt i relation til fire tekstminingseksempler. Progressionen er 1. indlæsning af de eventyr, som blev produceret vha. første notebook. 2. Rensning af tekster. 3. fire tekstminingseksempler. Hvis man ikke allerede har gemt data lokalt vha. første notebook kan man finde data på https://github.com/KUBDatalab/datasets i zipfilen grimm_tales.zip.   
 
-Digital humaniora og programmering 3
-Denne notebook gennemgår nogle af Python-biblioteket Pandas’ mange muligheder. Pandas er et bibliotek i Python, som man benytter til at arbejde med data, der er struktureret i rækker og kolonner. Man vil ofte vælge at strukturere sine data i rækker og kolonner, hvis man har samlet meget data, og der findes også mange datasæt, som allerede er struktureret således. Med lidt kendskab til Pandas er man godt hjulpet på vej til at kunne give sig i kast med dataanalyse af større datasæt.
+## Digital humaniora og programmering 3
+### Python med Pandas et rigtig Grimm eventyr
+Notebooken bliver benyttet i relation til kursus til gennemgang af loops, funktioner, pandas og eksempler på nltk metoder. Benyttede biblioteker er pandas, os, re og nltk. Progressionen er 1. indlæsning af filer til dataframe. 2. Tilføjelse af nye kolonner til dataframe. 3. Flere eksempler på brugen af egne funktioner, der bliver appliceret vha. .apply( lambda x : (x) ). 4. Nltk bliver anvendt til lemmatisering og POS-tagging. 5. De 10 mest benyttede ord inden for en ordklasse bliver plottet. Har man ikke produceret dataen vha. første notebook kan kildematerialet (dataen) downloades herfra: https://github.com/KUBDatalab/datasets. Data betår af Grimms eventyr og ligger i zipfilen grimm_tales.zip. 
